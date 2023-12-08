@@ -1,6 +1,8 @@
 ---
 - hosts: all
   vars:
+    username: xxxxxxxxx
+    password: xxxxxxxxx
   tasks:
   - name: install nginx
     apt:
