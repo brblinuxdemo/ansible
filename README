@@ -1,0 +1,11 @@
+chmod +x encode.sh decode.sh
+
+encode example
+  ./encode.sh "this is my test string"
+  # => U2FsdGVkX18fjSHGEzTXU08q+GG2I4xrV+GGtfDLg+T3vxpllUc/IHnRWLgoUl9q
+
+
+decode example
+ 
+ ./decode.sh U2FsdGVkX18fjSHGEzTXU08q+GG2I4xrV+GGtfDLg+T3vxpllUc/IHnRWLgoUl9q
+ # => this is my test string
